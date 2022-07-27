@@ -1,6 +1,6 @@
 from datetime import datetime
 
-print("\n--- start app at {} ---".format(datetime.now()))
+print("\n--- start app at {} ---".format(datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
 print()
 
 num1 = int(input("Insert first number: "))
@@ -15,4 +15,4 @@ print("Modulo: {} % {} = {}".format(num1, num2, (num1 % num2)))
 print("Exponent: {} ** {} = {}".format(num1, num2, (num1 ** num2)))
 
 print()
-print("--- end at {} ---\n".format(datetime.now()))
+print("--- end at {} ---\n".format(datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
